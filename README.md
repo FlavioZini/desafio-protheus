@@ -1,24 +1,28 @@
 # Desafio-protheus
+## Execução
 
-1. Instala o pacote FPDF no ambiente Python. O FPDF é um pacote para criação de documentos PDF em Python. Com ele, é possível criar documentos PDF programaticamente, adicionando textos, imagens e tabelas, por exemplo.
+
+
+## Funcionamento
+1. Instala o pacote FPDF no ambiente Python. O FPDF é um pacote para criação de documentos PDF em _Python_. Com ele, é possível criar documentos PDF programaticamente, adicionando textos, imagens e tabelas, por exemplo.
 
 ![image](https://user-images.githubusercontent.com/130913679/234136322-daeee4d7-d327-4b85-b10f-8df9bd1ab206.png)
 
 2. Esse trecho de código importa as bibliotecas necessárias para o projeto:
 
-  * sqlite3: biblioteca para trabalhar com banco de dados SQLite;
-  * requests: biblioteca para fazer requisições HTTP;
-  * json: biblioteca para trabalhar com JSON;
-  * datetime: biblioteca para trabalhar com datas e horários;
-  * fpdf: biblioteca para criar arquivos PDF.
+  * __sqlite3_: biblioteca para trabalhar com banco de dados _SQLite_;
+  * __requests_: biblioteca para fazer requisições _HTTP_;
+  * __json_: biblioteca para trabalhar com _JSON_;
+  * __datetime_: biblioteca para trabalhar com datas e horários;
+  * _fpdf_: biblioteca para criar arquivos PDF.
 
 ![image](https://user-images.githubusercontent.com/130913679/234136232-09d934fa-9275-444e-afa0-b8009c010816.png)
 
-3. Essa parte do código cria uma conexão com o banco de dados desafio_protheus.bd e cria duas tabelas: Acao e Cotacao.
+3. Essa parte do código cria uma conexão com o banco de dados _desafio_protheus.bd_ e cria duas tabelas: **Acao** e **Cotacao**.
 
-  A tabela Acao possui três colunas: idAcao, simbolo e nome. A coluna idAcao é uma chave primária que identifica exclusivamente cada ação, enquanto as colunas simbolo  e nome armazenam o símbolo e o nome da ação, respectivamente.
+  *A tabela **Acao** possui três colunas: '''idAcao''', simbolo e nome. A coluna '''idAcao''' é uma chave primária que identifica exclusivamente cada ação, enquanto as colunas **simbolo**  e **nome** armazenam o símbolo e o nome da ação, respectivamente.
 
-  A tabela Cotacao possui sete colunas: idAcao, idCotacao, Cotacao, ValorMercado, VolumeTransacoes, Moeda e Data. A coluna idCotacao é uma chave primária que identifica exclusivamente cada registro de cotação, enquanto a coluna idAcao é uma chave estrangeira que relaciona cada cotação com uma ação. As colunas Cotacao, ValorMercado, VolumeTransacoes, Moeda e Data armazenam os valores correspondentes à cotação da ação no momento específico.
+  *A tabela **Cotacao** possui sete colunas: '''idAcao''', '''idCotacao''', '''Cotacao''', '''ValorMercado''', '''VolumeTransacoes''', '''Moeda''' e '''Data'''. A coluna '''idCotacao''' é uma chave primária que identifica exclusivamente cada registro de cotação, enquanto a coluna '''idAcao é uma chave estrangeira que relaciona cada cotação com uma ação. As colunas Cotacao, ValorMercado, VolumeTransacoes, Moeda e Data armazenam os valores correspondentes à cotação da ação no momento específico.
 
 ![image](https://user-images.githubusercontent.com/130913679/234136351-cd55cb3d-e6cd-4878-abc2-9ec977fab34f.png)
 
