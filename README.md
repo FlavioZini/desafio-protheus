@@ -20,7 +20,7 @@
 
 3. Essa parte do código cria uma conexão com o banco de dados _desafio_protheus.bd_ e cria duas tabelas: **Acao** e **Cotacao**.
 
-  *A tabela **Acao** possui três colunas: '''idAcao''', simbolo e nome. A coluna '''idAcao''' é uma chave primária que identifica exclusivamente cada ação, enquanto as colunas **simbolo**  e **nome** armazenam o símbolo e o nome da ação, respectivamente.
+  *A tabela **Acao** possui três colunas: '''idAcao''', simbolo e nome. A coluna ```idAcao``` é uma chave primária que identifica exclusivamente cada ação, enquanto as colunas **simbolo**  e **nome** armazenam o símbolo e o nome da ação, respectivamente.
 
   *A tabela **Cotacao** possui sete colunas: '''idAcao''', '''idCotacao''', '''Cotacao''', '''ValorMercado''', '''VolumeTransacoes''', '''Moeda''' e '''Data'''. A coluna '''idCotacao''' é uma chave primária que identifica exclusivamente cada registro de cotação, enquanto a coluna '''idAcao é uma chave estrangeira que relaciona cada cotação com uma ação. As colunas Cotacao, ValorMercado, VolumeTransacoes, Moeda e Data armazenam os valores correspondentes à cotação da ação no momento específico.
 
