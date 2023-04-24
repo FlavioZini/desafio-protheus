@@ -6,25 +6,25 @@
 
 2. Esse trecho de código importa as bibliotecas necessárias para o projeto:
 
--> sqlite3: biblioteca para trabalhar com banco de dados SQLite;\n
--> requests: biblioteca para fazer requisições HTTP;
--> json: biblioteca para trabalhar com JSON;
--> datetime: biblioteca para trabalhar com datas e horários;
--> fpdf: biblioteca para criar arquivos PDF.
+  *-> sqlite3: biblioteca para trabalhar com banco de dados SQLite;
+  *-> requests: biblioteca para fazer requisições HTTP;
+  *-> json: biblioteca para trabalhar com JSON;
+  *-> datetime: biblioteca para trabalhar com datas e horários;
+  *-> fpdf: biblioteca para criar arquivos PDF.
 
 ![image](https://user-images.githubusercontent.com/130913679/234136232-09d934fa-9275-444e-afa0-b8009c010816.png)
 
 3. Essa parte do código cria uma conexão com o banco de dados desafio_protheus.bd e cria duas tabelas: Acao e Cotacao.
 
-A tabela Acao possui três colunas: idAcao, simbolo e nome. A coluna idAcao é uma chave primária que identifica exclusivamente cada ação, enquanto as colunas simbolo e nome armazenam o símbolo e o nome da ação, respectivamente.
+  A tabela Acao possui três colunas: idAcao, simbolo e nome. A coluna idAcao é uma chave primária que identifica exclusivamente cada ação, enquanto as colunas simbolo  e nome armazenam o símbolo e o nome da ação, respectivamente.
 
-A tabela Cotacao possui sete colunas: idAcao, idCotacao, Cotacao, ValorMercado, VolumeTransacoes, Moeda e Data. A coluna idCotacao é uma chave primária que identifica exclusivamente cada registro de cotação, enquanto a coluna idAcao é uma chave estrangeira que relaciona cada cotação com uma ação. As colunas Cotacao, ValorMercado, VolumeTransacoes, Moeda e Data armazenam os valores correspondentes à cotação da ação no momento específico.
+  A tabela Cotacao possui sete colunas: idAcao, idCotacao, Cotacao, ValorMercado, VolumeTransacoes, Moeda e Data. A coluna idCotacao é uma chave primária que identifica exclusivamente cada registro de cotação, enquanto a coluna idAcao é uma chave estrangeira que relaciona cada cotação com uma ação. As colunas Cotacao, ValorMercado, VolumeTransacoes, Moeda e Data armazenam os valores correspondentes à cotação da ação no momento específico.
 
 ![image](https://user-images.githubusercontent.com/130913679/234136351-cd55cb3d-e6cd-4878-abc2-9ec977fab34f.png)
 
 4. Essa parte do código faz o download de uma lista de siglas de ações disponíveis a partir de uma API (https://brapi.dev/api/available) e armazena essas siglas em um arquivo JSON chamado "siglas.json". O objetivo é obter as siglas para depois fazer consultas de cotações das ações utilizando outras APIs.
 
-O processo consiste em fazer uma solicitação GET para a API, verificar se a resposta foi bem-sucedida, converter a resposta para um objeto Python, criar um objeto Python com as siglas e escrever o objeto Python em um arquivo JSON. Ao final, imprime uma mensagem indicando que as siglas foram armazenadas com sucesso.
+  O processo consiste em fazer uma solicitação GET para a API, verificar se a resposta foi bem-sucedida, converter a resposta para um objeto Python, criar um objeto Python com as siglas e escrever o objeto Python em um arquivo JSON. Ao final, imprime uma mensagem indicando que as siglas foram armazenadas com sucesso.
 
 ![image](https://user-images.githubusercontent.com/130913679/234136397-5bccea6d-07f0-4930-8ddc-c160730b56ff.png)
 
