@@ -6,11 +6,11 @@
 
 2. Esse trecho de código importa as bibliotecas necessárias para o projeto:
 
-  *-> sqlite3: biblioteca para trabalhar com banco de dados SQLite;
-  *-> requests: biblioteca para fazer requisições HTTP;
-  *-> json: biblioteca para trabalhar com JSON;
-  *-> datetime: biblioteca para trabalhar com datas e horários;
-  *-> fpdf: biblioteca para criar arquivos PDF.
+  * sqlite3: biblioteca para trabalhar com banco de dados SQLite;
+  * requests: biblioteca para fazer requisições HTTP;
+  * json: biblioteca para trabalhar com JSON;
+  * datetime: biblioteca para trabalhar com datas e horários;
+  * fpdf: biblioteca para criar arquivos PDF.
 
 ![image](https://user-images.githubusercontent.com/130913679/234136232-09d934fa-9275-444e-afa0-b8009c010816.png)
 
