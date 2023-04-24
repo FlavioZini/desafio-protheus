@@ -1,4 +1,4 @@
-# desafio-protheus
+# Desafio-protheus
 
 1. Instala o pacote FPDF no ambiente Python. O FPDF é um pacote para criação de documentos PDF em Python. Com ele, é possível criar documentos PDF programaticamente, adicionando textos, imagens e tabelas, por exemplo.
 
@@ -6,7 +6,7 @@
 
 2. Esse trecho de código importa as bibliotecas necessárias para o projeto:
 
--> sqlite3: biblioteca para trabalhar com banco de dados SQLite;
+-> sqlite3: biblioteca para trabalhar com banco de dados SQLite;\n
 -> requests: biblioteca para fazer requisições HTTP;
 -> json: biblioteca para trabalhar com JSON;
 -> datetime: biblioteca para trabalhar com datas e horários;
