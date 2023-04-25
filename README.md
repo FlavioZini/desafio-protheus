@@ -6,8 +6,11 @@ Para a execução não é necessário a instalação de _Softwares_, a aplicaç�
 
 ### Passos
 
-* Efetuar o Download do arquivo ```desafio_protheus.ipynb```;
-* Acessar o ambiente de desenvolvimento _Google Colaboratory_, disponível no link (https://colab.research.google.com/);
+* Efetuar o Download do arquivo ```.zip``` ```desafio-protheus```, descompacte o mesmo;
+
+![image](https://user-images.githubusercontent.com/130913679/234148704-d90e12e6-0fa3-4e80-9903-231ab1132dba.png)
+
+* Acesse o ambiente de desenvolvimento _Google Colaboratory_, disponível no link (https://colab.research.google.com/);
 * Ir até a aba Arquivo -> Fazer _upload_ de _notebook_ -> Escolher Arquivo e seleciona o arquivo ```desafio_protheus.ipynb```.
 
 ![image](https://user-images.githubusercontent.com/130913679/234142958-c74401f0-3b5d-467e-ab7e-44edf00d1f39.png)
