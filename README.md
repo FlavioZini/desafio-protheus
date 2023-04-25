@@ -9,10 +9,12 @@ Para a execução não é necessário a instalação de _Softwares_, a aplicaç�
 * Efetuar o Download do arquivo ```desafio_protheus.ipynb```;
 * Acessar o ambiente de desenvolvimento _Google Colaboratory_, disponível no link (https://colab.research.google.com/);
 * Ir até a aba Arquivo -> Fazer _upload_ de _notebook_ -> Escolher Arquivo e seleciona o arquivo ```desafio_protheus.ipynb```.
+
 ![image](https://user-images.githubusercontent.com/130913679/234142958-c74401f0-3b5d-467e-ab7e-44edf00d1f39.png)
 ![image](https://user-images.githubusercontent.com/130913679/234143056-83db5b77-4938-4412-8e10-99b0ebd7b771.png)
 
 * Após feito _upload_ ir até a aba Ambiente de Execução -> Executar Tudo. Agora só aguardar o processo de execução do Projeto ser concluído.
+
 ![image](https://user-images.githubusercontent.com/130913679/234143472-d65d447d-620a-4787-9760-7364d1642ad5.png)
 
 * Depois de concluído é possível verificar os seguintes itens na aba lateral da feramenta:
@@ -20,7 +22,7 @@ Para a execução não é necessário a instalação de _Softwares_, a aplicaç�
  * ```siglas.json```: Arquivo contendo todas as siglas das ações presentes na _API_;  
  * ```dados.pdf```: Arquivo PDF com todas as informações das ações.
 
-* Estes arquivos podem ser baixados para posterior verificação dos dados presentes nos mesmos.
+Estes arquivos podem ser baixados para posterior verificação dos dados presentes nos mesmos.
 
 ## Funcionamento
 
@@ -46,9 +48,7 @@ Para a execução não é necessário a instalação de _Softwares_, a aplicaç�
 
 ![image](https://user-images.githubusercontent.com/130913679/234136351-cd55cb3d-e6cd-4878-abc2-9ec977fab34f.png)
 
-4. Essa parte do código faz o download de uma lista de siglas de ações disponíveis a partir de uma _API_ (https://brapi.dev/api/available) e armazena essas siglas em um arquivo _JSON_ chamado ```siglas.json```. O objetivo é obter as siglas para depois fazer consultas de cotações das ações utilizando _APIs_.
-
-  O processo consiste em fazer uma solicitação _GET_ para a _API_, verificar se a resposta foi bem-sucedida, converter a resposta para um objeto _Python_, criar um objeto _Python_ com as siglas e escrever o objeto _Python_ em um arquivo _JSON_. Ao final, imprime uma mensagem indicando que as siglas foram armazenadas com sucesso.
+4. Essa parte do código faz o download de uma lista de siglas de ações disponíveis a partir de uma _API_ (https://brapi.dev/api/available) e armazena essas siglas em um arquivo _JSON_ chamado ```siglas.json```. O objetivo é obter as siglas para depois fazer consultas de cotações das ações utilizando _APIs_. O processo consiste em fazer uma solicitação _GET_ para a _API_, verificar se a resposta foi bem-sucedida, converter a resposta para um objeto _Python_, criar um objeto _Python_ com as siglas e escrever o objeto _Python_ em um arquivo _JSON_. Ao final, imprime uma mensagem indicando que as siglas foram armazenadas com sucesso.
 
 ![image](https://user-images.githubusercontent.com/130913679/234136397-5bccea6d-07f0-4930-8ddc-c160730b56ff.png)
 
