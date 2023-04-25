@@ -1,9 +1,29 @@
 # Desafio-protheus
+
+Para a execução não é necessário a instalação de _Softwares_, a aplicação foi desenvolvida no ambiente _Google Colaboratory_ que é um ambiente de desenvolvimento integrado (_IDE_) baseado em nuvem, que permite aos usuários escrever, executar e compartilhar códigos e documentos colaborativos. Ele é projetado para trabalhar com a linguagem de programação _Python_ e é executado no navegador da _web_, o que significa que não é necessário configurar um ambiente de desenvolvimento em seu próprio computador. Além disso, o _Colab_ oferece recursos gratuitos de alto desempenho, como _CPUs_ e _GPUs_, para executar códigos complexos e pesados de forma rápida e eficiente. Ele também permite importar bibliotecas populares de _Python_, como _NumPy_, _Pandas_ e _TensorFlow_, entre outras.
+
 ## Execução
 
+### Passos
 
+* Efetuar o Download do arquivo ```desafio_protheus.ipynb```;
+* Acessar o ambiente de desenvolvimento _Google Colaboratory_, disponível no link (https://colab.research.google.com/);
+* Ir até a aba Arquivo -> Fazer _upload_ de _notebook_ -> Escolher Arquivo e seleciona o arquivo ```desafio_protheus.ipynb```.
+![image](https://user-images.githubusercontent.com/130913679/234142958-c74401f0-3b5d-467e-ab7e-44edf00d1f39.png)
+![image](https://user-images.githubusercontent.com/130913679/234143056-83db5b77-4938-4412-8e10-99b0ebd7b771.png)
+
+* Após feito _upload_ ir até a aba Ambiente de Execução -> Executar Tudo. Agora só aguardar o processo de execução do Projeto ser concluído.
+![image](https://user-images.githubusercontent.com/130913679/234143472-d65d447d-620a-4787-9760-7364d1642ad5.png)
+
+* Depois de concluído é possível verificar os seguintes itens na aba lateral da feramenta:
+ * ```desafio_protheus.bd```: Banco de Dados relacional;
+ * ```siglas.json```: Arquivo contendo todas as siglas das ações presentes na _API_;  
+ * ```dados.pdf```: Arquivo PDF com todas as informações das ações.
+
+* Estes arquivos podem ser baixados para posterior verificação dos dados presentes nos mesmos.
 
 ## Funcionamento
+
 1. Instala o pacote FPDF no ambiente Python. O FPDF é um pacote para criação de documentos PDF em _Python_. Com ele, é possível criar documentos PDF programaticamente, adicionando textos, imagens e tabelas, por exemplo.
 
 ![image](https://user-images.githubusercontent.com/130913679/234136322-daeee4d7-d327-4b85-b10f-8df9bd1ab206.png)
@@ -18,11 +38,11 @@
 
 ![image](https://user-images.githubusercontent.com/130913679/234136232-09d934fa-9275-444e-afa0-b8009c010816.png)
 
-3. Essa parte do código cria uma conexão com o banco de dados _desafio_protheus.bd_ e cria duas tabelas: **Acao** e **Cotacao**.
+3. Essa parte do código cria uma conexão com o banco de dados ```desafio_protheus.bd``` e cria duas tabelas: **Acao** e **Cotacao**.
 
-  *A tabela **Acao** possui três colunas: ```idAcao```, simbolo e nome. A coluna ```idAcao``` é uma chave primária que identifica exclusivamente cada ação, enquanto as colunas **simbolo**  e **nome** armazenam o símbolo e o nome da ação, respectivamente.
+  * A tabela **Acao** possui três colunas: _idAcao_, simbolo e nome. A coluna _idAcao_ é uma chave primária que identifica exclusivamente cada ação, enquanto as colunas _simbolo_  e _nome_ armazenam o símbolo e o nome da ação, respectivamente.
 
-  *A tabela **Cotacao** possui sete colunas: ```idAcao, idCotacao, Cotacao, ValorMercado, VolumeTransacoes, Moeda e Data```. A coluna ```idCotacao``` é uma chave primária que identifica exclusivamente cada registro de cotação, enquanto a coluna ```idAcao``` é uma chave estrangeira que relaciona cada cotação com uma ação. As colunas ```Cotacao, ValorMercado, VolumeTransacoes, Moeda e Data``` armazenam os valores correspondentes à cotação da ação no momento específico.
+  * A tabela **Cotacao** possui sete colunas: _idAcao, idCotacao, Cotacao, ValorMercado, VolumeTransacoes, Moeda e Data_. A coluna _idCotacao_ é uma chave primária que identifica exclusivamente cada registro de cotação, enquanto a coluna _idAcao_ é uma chave estrangeira que relaciona cada cotação com uma ação. As colunas _Cotacao, ValorMercado, VolumeTransacoes, Moeda e Data_ armazenam os valores correspondentes à cotação da ação no momento específico.
 
 ![image](https://user-images.githubusercontent.com/130913679/234136351-cd55cb3d-e6cd-4878-abc2-9ec977fab34f.png)
 
